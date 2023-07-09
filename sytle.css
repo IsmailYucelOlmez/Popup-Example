@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.popup{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%)scale(0.1);
+    visibility: hidden;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.6rem;
+     
+}
+.open-popup{
+    top:50%;
+    transform: translate(-50%,-50%)scale(1);
+    visibility: visible;
+    background-color: white;
+
+}
+.popup-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn{
+
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.6rem;
+}
+.submit-btn{
+
+    background-color: goldenrod;   
+    border: 1px solid white; 
+    color: white;
+}
+.confirm-btn{
+
+    background-color: greenyellow;
+    border: 1px solid black;
+    color: black;
+    margin-top: 10px;
+}
